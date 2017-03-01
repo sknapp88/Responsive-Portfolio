@@ -6,12 +6,6 @@ header {
 	border-bottom-color: #ccc;
 	width: 100%;
 }
-/*@media only screen and (max-width: 650px){
-	body{ 
-		margin-top: -15px;
-		margin-bottom: -15px;
-	}
-}*/
 
 body {
 	width: 960px;
@@ -94,10 +88,10 @@ p {
 }
 
 #grid-display {
-	width: 300px;
+	width: 500px;
 }
 
-#grid-displayh a img {
+#grid-display a img {
 	padding: 10px 15px 10px 15px;
 }
 
@@ -123,6 +117,7 @@ p {
 
 #name-sake {
 	width: 650px;
+	height: 500px;
 	margin-left: 50px;
 	padding: 15px;
 	background-color: #fff;
@@ -130,7 +125,9 @@ p {
 
 
 #social-links {
+	position: relative;
 	float: right;
+	top: -500px;
 	background-color: #fff;
 }
 
@@ -146,7 +143,7 @@ p {
 @media only screen and (max-width: 650px) {
 	body {
 		width: 100%;
-		background-size: 650px;
+		background: none;
 		margin: 5% auto;
 	}
 	header {
@@ -189,17 +186,32 @@ p {
 	}
 
 	#social-links {
-			float: none;
-			position: absolute;
-			top: 375px;
-			margin-top: 0 auto;
-			width: 100%;
-			left: 0;
-			padding: 15px;
-			padding-top: 0;
-		}
-
-		.wrapper {
-			background-color: #fff;
-		}
+		float: none;
+		position: absolute;
+		top: 375px;
+		margin-top: 0 auto;
+		width: 100%;
+		left: 0;
+		padding: 15px;
+		padding-top: 0;
 	}
+
+	.wrapper {
+		background-color: #fff;
+	}
+}
+@media only screen and (min-width: 740px) and (max-width: 940px) {
+	body {
+		width: 740px;
+	}
+
+	#social-links {
+		float: none;
+		position: relative;
+		top: 50px;
+		width: 650px;
+		left: 50px;
+		padding: 15px;
+		padding-top: 0;
+	}
+}
