@@ -1,0 +1,65 @@
+body {
+	width: 100%;
+	background-size: 650px;
+	margin: 5% auto;
+}
+header {
+	width: 100%;
+	margin: 0;
+	height: 150px;
+}
+
+h1 {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+}
+
+nav {
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	width: 100%;
+}
+
+footer {
+	position: absolute;
+	width: 110%;
+	bottom: 0;
+	left: -5px;
+}
+
+#name-sake {
+	width: 100%;
+	margin: 0;
+	padding-bottom: 15px;
+	padding-right: 10px;
+}
+
+#background {
+	margin: 0;
+	width: 100%;
+}
+
+#social-links {
+	/*position: absolute;
+	top: 245px;
+	margin-top: 0 auto;
+	width: 100%;
+	left: 0;
+	padding: 15px;
+	padding-top: 70px;*/
+}
+
+#profile {
+	float: left;
+	margin-top: 0;
+	padding-right: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.wrapper {
+	background-color: #fff;
+}
